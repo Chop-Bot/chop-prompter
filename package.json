@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Joaquim Neto <joaquimmy@yahoo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "discord.js": "^12.0.2"
+  },
+  "types": "src/index.d.ts"
 }
