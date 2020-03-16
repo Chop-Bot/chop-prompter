@@ -61,7 +61,7 @@ const choice = (
     let result = null;
 
     for (const reaction of collected) {
-      const guildEmoji = message.guild ? message.guild.emojis.get(reaction[0]) : null;
+      const guildEmoji = message.guild ? message.guild.emojis.cache.get(reaction[0]) : null;
       result = guildEmoji ? guildEmoji : reaction[0];
     }
 
